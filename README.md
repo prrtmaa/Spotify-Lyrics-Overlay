@@ -1,33 +1,64 @@
 # Spotify Lyrics Overlay
 
-A modern Spotify lyrics overlay for Windows built with Python and PyQt6. Display synchronized lyrics directly on your desktop with a clean floating interface inspired by Dynamic Island and modern desktop widgets.
+[![Python](https://img.shields.io/badge/Python-3.11+-blue)](https://www.python.org/)
+[![PyQt6](https://img.shields.io/badge/PyQt6-GUI-green)](https://pypi.org/project/PyQt6/)
+[![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%2F%2011-blue)]()
+[![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
-![Python](https://img.shields.io/badge/Python-3.11+-blue)
-![PyQt6](https://img.shields.io/badge/PyQt6-GUI-green)
-![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%2F%2011-blue)
-![License](https://img.shields.io/badge/License-MIT-yellow)
+A modern desktop lyrics overlay for Spotify built with Python and PyQt6. Display synchronized lyrics directly on your desktop with a customizable floating interface inspired by Dynamic Island and modern media widgets.
+
+Designed for users who enjoy following song lyrics while working, studying, gaming, or simply listening to music without constantly switching back to the Spotify window.
 
 ---
 
-## Features
+## ✨ Features
+
+### 🎵 Lyrics Synchronization
 
 - Real-time synchronized lyrics
-- Floating desktop overlay
-- Dynamic Island inspired mini mode
-- Album artwork display
-- Media controls (Previous, Play/Pause, Next)
-- Animated audio visualizer
+- Automatic lyrics retrieval
+- Active lyric highlighting
+- Offline lyrics caching
+- Smooth lyric transitions
+
+### 🖥️ Desktop Overlay
+
+- Floating desktop widget
+- Frameless design
 - Always-on-top support
 - Click-through mode
-- Auto-start with Windows
+- Draggable anywhere
 - Adjustable transparency
-- Customizable font size
-- Global keyboard shortcuts
-- Offline lyrics cache
+
+### 🍎 Modern UI
+
+- Dynamic Island inspired design
+- Dark glass appearance
+- Album artwork display
+- Animated audio visualizer
+- Smooth animations
+- Rounded corners and shadows
+
+### 🎮 Media Controls
+
+- Previous track
+- Play / Pause
+- Next track
+- Live song information
+- Playback status detection
+
+### ⚙️ Customization
+
+- Adjustable font size
+- Multiple lyric display modes
+- Transparency control
+- Window position memory
+- Custom hotkeys
+- Auto-start support
 
 ---
 
-## Screenshots
+## 📸 Screenshots
 
 ### Full Overlay Mode
 
@@ -39,23 +70,13 @@ A modern Spotify lyrics overlay for Windows built with Python and PyQt6. Display
 
 ---
 
-## Tech Stack
-
-- Python 3.11+
-- PyQt6
-- Windows GSMTC API
-- LRCLIB API
-- PyInstaller
-
----
-
-## Installation
+## 🚀 Installation
 
 ### Requirements
 
-- Windows 10 / 11
+- Windows 10 or Windows 11
 - Python 3.11+
-- Spotify Desktop
+- Spotify Desktop Application
 
 ### Clone Repository
 
@@ -78,27 +99,40 @@ python run.py
 
 ---
 
-## Build Executable
+## ⌨️ Keyboard Shortcuts
 
-Using PyInstaller:
-
-```bash
-pyinstaller --noconsole ^
---onefile ^
---name="SpotifyLyricsOverlay" ^
---icon="spotify_lyrics_overlay/assets/icon.ico" ^
-spotify_lyrics_overlay/main.py
-```
-
-The executable will be generated inside:
-
-```text
-dist/
-```
+| Shortcut | Action |
+|-----------|---------|
+| Ctrl + Alt + L | Show / Hide Overlay |
+| Ctrl + Alt + M | Change Lyrics Mode |
+| Ctrl + Alt + T | Toggle Transparency |
+| Ctrl + Alt + Up | Increase Font Size |
+| Ctrl + Alt + Down | Decrease Font Size |
 
 ---
 
-## Project Structure
+## 🛠️ Tech Stack
+
+### Backend
+
+- Python 3.11+
+
+### GUI Framework
+
+- PyQt6
+
+### APIs & Services
+
+- Windows GSMTC API
+- LRCLIB API
+
+### Packaging
+
+- PyInstaller
+
+---
+
+## 📂 Project Structure
 
 ```text
 Spotify-Lyrics-Overlay/
@@ -114,58 +148,99 @@ Spotify-Lyrics-Overlay/
 │
 ├── run.py
 ├── requirements.txt
-├── README.md
-└── LICENSE
+├── LICENSE
+└── README.md
 ```
 
 ---
 
-## Keyboard Shortcuts
+## 🔧 Configuration
 
-| Shortcut | Action |
-|-----------|---------|
-| Ctrl + Alt + L | Show / Hide Overlay |
-| Ctrl + Alt + M | Change Lyrics Mode |
-| Ctrl + Alt + T | Change Transparency |
-| Ctrl + Alt + Up | Increase Font Size |
-| Ctrl + Alt + Down | Decrease Font Size |
-
----
-
-## Configuration
-
-User preferences are stored in:
+User settings are stored in:
 
 ```text
 spotify_lyrics_overlay/config.json
 ```
 
-Available settings include:
+You can customize:
 
 - Font size
-- Display mode
 - Transparency
+- Display mode
 - Window position
-- Always on top
+- Always-on-top
 - Auto-start
 - Hotkeys
 
 ---
 
-## License
+## 📦 Build Executable
 
-This project is released under the MIT License.
+Build a standalone executable using PyInstaller:
+
+```bash
+pyinstaller --noconsole ^
+--onefile ^
+--name="SpotifyLyricsOverlay" ^
+--icon="spotify_lyrics_overlay/assets/icon.ico" ^
+spotify_lyrics_overlay/main.py
+```
+
+After building, the executable will be available in:
+
+```text
+dist/
+```
 
 ---
 
-## Bahasa Indonesia
+## 🗺️ Roadmap
 
-Spotify Lyrics Overlay adalah aplikasi desktop untuk Windows yang menampilkan lirik Spotify secara sinkron langsung di desktop dengan tampilan modern dan ringan.
+### Completed
 
-### Fitur Utama
+- [x] Real-time synchronized lyrics
+- [x] Floating desktop overlay
+- [x] Dynamic Island mini mode
+- [x] Album artwork display
+- [x] Media controls
+- [x] Offline lyrics cache
+- [x] Transparency controls
 
-- Lirik sinkron realtime
-- Mode overlay mengambang
+### Planned
+
+- [ ] Lyrics translation
+- [ ] Custom themes
+- [ ] More visualizer styles
+- [ ] Multiple lyric providers
+- [ ] Lyrics export
+- [ ] Plugin support
+
+---
+
+## 🤝 Contributing
+
+Contributions, suggestions, and bug reports are welcome.
+
+If you find a bug or have an idea for improvement, feel free to open an issue or submit a pull request.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+See the [LICENSE](LICENSE) file for more information.
+
+---
+
+# 🇮🇩 Bahasa Indonesia
+
+Spotify Lyrics Overlay adalah aplikasi desktop untuk Windows yang menampilkan lirik Spotify secara sinkron langsung di desktop dengan tampilan modern, ringan, dan dapat dikustomisasi.
+
+## Fitur Utama
+
+- Lirik sinkron secara realtime
+- Overlay mengambang di desktop
 - Mode mini ala Dynamic Island
 - Cover album Spotify
 - Kontrol media
@@ -176,13 +251,13 @@ Spotify Lyrics Overlay adalah aplikasi desktop untuk Windows yang menampilkan li
 - Auto-start Windows
 - Hotkey global
 
-### Menjalankan Aplikasi
+## Menjalankan Aplikasi
 
 ```bash
 pip install -r requirements.txt
 python run.py
 ```
 
-### Lisensi
+## Lisensi
 
-MIT License.
+Project ini menggunakan lisensi MIT.
