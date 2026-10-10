@@ -30,15 +30,6 @@ Designed for users who enjoy following song lyrics while working, studying, gami
 - Draggable anywhere
 - Adjustable transparency
 
-### 🍎 Modern UI
-
-- Dynamic Island inspired design
-- Dark glass appearance
-- Album artwork display
-- Animated audio visualizer
-- Smooth animations
-- Rounded corners and shadows
-
 ### 🎮 Media Controls
 
 - Previous track
