@@ -194,37 +194,6 @@ dist/
 
 ---
 
-## 🗺️ Roadmap
-
-### Completed
-
-- [x] Real-time synchronized lyrics
-- [x] Floating desktop overlay
-- [x] Dynamic Island mini mode
-- [x] Album artwork display
-- [x] Media controls
-- [x] Offline lyrics cache
-- [x] Transparency controls
-
-### Planned
-
-- [ ] Lyrics translation
-- [ ] Custom themes
-- [ ] More visualizer styles
-- [ ] Multiple lyric providers
-- [ ] Lyrics export
-- [ ] Plugin support
-
----
-
-## 🤝 Contributing
-
-Contributions, suggestions, and bug reports are welcome.
-
-If you find a bug or have an idea for improvement, feel free to open an issue or submit a pull request.
-
----
-
 ## 📄 License
 
 This project is licensed under the MIT License.
