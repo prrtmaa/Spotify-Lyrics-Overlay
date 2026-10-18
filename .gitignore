@@ -18,6 +18,7 @@ config.json
 
 # Environments
 .venv/
+.venv-build/
 venv/
 ENV/
 env/
