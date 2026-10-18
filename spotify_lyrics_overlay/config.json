@@ -1,0 +1,27 @@
+{
+  "font_family": "Segoe UI",
+  "font_size": 17,
+  "active_color": "#1ED760",
+  "inactive_color": "rgba(255, 255, 255, 0.48)",
+  "background_opacity": 0.2,
+  "always_on_top": true,
+  "click_through": false,
+  "auto_hide_header": false,
+  "show_progress_bar": true,
+  "show_album_cover": true,
+  "window_x": 610,
+  "window_y": 90,
+  "window_width": 479,
+  "window_height": 195,
+  "display_lines": 2,
+  "text_alignment": "left",
+  "auto_start": false,
+  "hide_when_paused": false,
+  "hotkeys": {
+    "toggle_overlay": "ctrl+alt+l",
+    "font_increase": "ctrl+alt+up",
+    "font_decrease": "ctrl+alt+down",
+    "toggle_mode": "ctrl+alt+m",
+    "toggle_transparency": "ctrl+alt+t"
+  }
+}
